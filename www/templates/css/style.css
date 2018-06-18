@@ -1,0 +1,228 @@
+img {
+    display: none;
+}
+
+div[contenteditable="true"] {
+    font-weight: bold; 
+    border: 1px dotted grey;
+    background: white;
+}
+
+.prod-rem {
+    background: #f5e79e;    
+}
+
+.prod-ret {
+    background: #e7c3c3;
+    color:red;
+}
+
+.analytic {
+    background: white; 
+    border: 1px solid #286090; 
+    border-radius: 5px;
+}
+
+.choosen-analytic {
+    background: #007fff;
+    color: white;
+}
+
+body {
+    background-image: url("../../images/bg11.jpg");   
+}
+
+img.miniatures, img#mainLogo, #skladLogo, img.prods {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+img#mainLogo {
+    max-width: 100%; 
+    height: auto;   
+    border-radius: 5px;   
+    box-shadow: 5px 5px 5px darkgrey;
+}
+
+div#mainContainer, div.container {
+    background: #c8e5bc;
+    padding: 60px; 
+    border: 2px solid #3c763d;
+}
+
+.mini {
+    height: 200px;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+
+.mini:hover {
+    background: lemonchiffon;
+}
+
+.mini:active {
+    box-shadow: 5px 5px 10px darkgrey inset;
+}
+
+.mini-prods {
+    height: auto;
+}
+
+div.mini, div.mini-prods {
+    background: #f5e79e;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+table {
+    background: white;
+}
+
+table th {
+    background: green;
+    color: white;
+}
+
+.item {
+    padding-left: 55px;
+}
+
+.td-amount, .td-price {
+    width: 70px;
+}
+
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.mini-prods img {
+    width: 100px;
+}
+
+img {
+    width: 150px;
+}
+
+img#mainLogo {
+    width: auto;
+}
+#accordion {
+    font-size:0.8em;
+}
+
+.ui-accordion-header > a {
+    color: red;
+}
+
+.delete-a-href {
+    color: #c8e5bc;
+}
+
+.arrows-in-th {
+    color: white;
+}
+
+input.td-netto-brutto {
+    width: 70px;
+}
+
+.ui-tabs {
+    background: #ddd;
+}
+
+div.modal-dialog {
+    width: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.mini-button {
+    display: block;
+    background: lightgreen;
+    color: darkgreen;
+    border: 1px dotted #3c763d;
+    border-radius: 5px;
+}
+
+.mini-button:hover {
+    background: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.new-calc-show-ingr:active {
+    color: red;
+}
+
+.updating-td, .td-netto-brutto {
+    width: 50px;
+}
+
+li.disable {
+    color: lightgrey;
+    text-decoration: line-through;
+}
+
+ul.list-orgs li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.marked-tr {
+    background: lightgrey;
+    color: black;
+}
+
+.col-lg-6:not(.default), .col-lg-12:not(.default) {
+    min-height: 600px; max-height: 600px; overflow-y: auto;
+}
+
+.checked {
+    color: blue;
+}
+
+div#receiver-report {
+    height: auto; 
+    min-height: 100px;
+    max-height: 800px; 
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+div.help {
+    display: none;
+}
+
+div.help i {
+    font-size: 12px; color: #003eff;
+}
+
+ul.nav.nav-tabs a {
+    font-size: 12px;
+    height: 30px;
+}
+
+div#header {
+    padding: 0px;
+}
+
+div#header div {
+    float: right;
+    margin-right: 15px;
+}
+
+div#header form input[type="text"]{
+    height: 30px;
+    border-radius: 5px;
+}
